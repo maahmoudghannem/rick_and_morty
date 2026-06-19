@@ -4,6 +4,7 @@
 // with a unified dark theme and launches the characters list.
 // ============================================================
 
+import 'package:discovery/screens/characters_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -73,7 +74,7 @@ class RickAndMortyApp extends StatelessWidget {
       ),
 
       // The first screen shown when the app launches
-      home: const CharacterListScreen(),
+      home: const CharactersListScreen(),
     );
   }
 }

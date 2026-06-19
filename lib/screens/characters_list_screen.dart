@@ -10,10 +10,10 @@
 // • Each card is its own private StatelessWidget (_CharacterCard)
 // ============================================================
 
+import 'package:discovery/screens/character_detail_screen.dart';
+import 'package:discovery/screens/character_model.dart';
+import 'package:discovery/services/api_services.dart';
 import 'package:flutter/material.dart';
-import '../models/character_model.dart';
-import '../services/api_services.dart';
-import 'character_detail_screen.dart';
 
 // ─────────────────────────────────────────────────────────────
 // CharactersListScreen (the StatefulWidget shell)

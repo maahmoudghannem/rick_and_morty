@@ -7,8 +7,8 @@
 // SliverAppBar to create a collapsing hero-image header effect.
 // ============================================================
 
+import 'package:discovery/screens/character_model.dart';
 import 'package:flutter/material.dart';
-import '../models/character_model.dart';
 
 /// Displays every field of a [Character] in a polished,
 /// scrollable layout with a large collapsible image header.

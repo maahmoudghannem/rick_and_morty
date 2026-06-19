@@ -7,7 +7,8 @@
 // ============================================================
 
 import 'package:dio/dio.dart';
-import '../models/character_model.dart';
+import 'package:discovery/screens/character_model.dart';
+
 
 /// Handles all HTTP communication with the Rick & Morty public API.
 /// Construct once and reuse — [Dio] manages its own connection pool.
